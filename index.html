@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockeys web desing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="d-flex justify-content-center mt-4 ">
+      <nav class="navbar navbar-expand-lg bg-body-none ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hockey<span class="text-danger"><b>'</b></span>s</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">E-mali</a></li>
+                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Instragram</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-search" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg></div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="search_btn">
+        <button type="button" class="btn btn-danger nav_btn">Get Ticket</button>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Part -->
+    <div id="carouselExampleControls" class="carousel slide mt-4 position-relative" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Images/1.png" class="d-block w-100" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/2.png" class="d-block w-100" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/3.png" class="d-block w-100" alt="3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- Cards -->
+      <div class="card card-1 position-absolute  start-50 bg-dark text-white" style="width: 30rem; height: 8rem;">
+        <div class="card-body">
+          <h5 class="card-title">Meet all the heroes from the field</h5>
+          <p class="card-text">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+      </div>      
+    </div>
+    <!-- Responsive desing === navbar_carousel text ==== -->
+    <div class="card card-1 carousel_text" style="width: 30rem; height: 8rem; display: none;">
+      <div class="card-body">
+        <h5 class="card-title">Meet all the heroes from the field</h5>
+        <p class="card-text">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+          turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+    </div>
+  </header>
+  <!-- Professional Hockeys Club -->
+
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto; margin-top:100px;" class="mb-3">
+  <div class="Professional_hockeys_lub d-flex align-items-*-center">
+    <h2>Professional Hockeys Club</h2>
+    <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>
+      dolor. Purus urna in sit nullam proin.</p>
+  </div>
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto;" class="mb-3 mt-3">
+
+  <!------------------------------------- Analatics part ------------------------------------->
+  Analatics part
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto; margin-top:100px;" class="mb-3">
+  <div class="program_sections d-flex align-items-*-center">
+    <h2>Analatics part</h2>
+    <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+      dolor. Purus urna in sit nullam proin.</p>
+  </div>
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto;" class="mb-5 mt-3">
+
+  <!------------------------------------- Junior Program Teenager Program ----------------------------------- -->
+
+  <div class="junior_program teenager_program d-flex gap-5 m-auto" style="width: 80%;">
+    <div class="card " style="width: 100%;">
+      <img src="/Images/2.png" class="card-img-top position-relative" alt="3">
+      <div class="card-body position-absolute text-white">
+        <h2>Junior Program</h2>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+          enim sagittis turpis in magna. Id et sed euismod natoque amet
+          nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-danger">Register Now!</button>
+      </div>
+    </div>
+
+    <div class="card " style="width: 100%;">
+      <img src="/Images/3.png" class="card-img-top position-relative" alt="3">
+      <div class="card-body position-absolute text-white">
+        <h2>Teenager Program</h2>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+          enim sagittis turpis in magna. Id et sed euismod natoque amet
+          nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-danger">Register Now!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Professional Program -->
+
+  <div class="card m-auto mt-3" style="width: 80%;">
+    <img src="/Images/4.png" class="card-img-top position-relative" alt="4">
+    <div class="card-body1 position-absolute text-white">
+      <h2>Professional Program</h2>
+      <p class="card-text" style="width:50%">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
+        morbi nulla. Tortor congue sed et in.</p>
+      <button class="btn btn-danger">Register Now!</button>
+    </div>
+  </div>
+
+
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto; margin-top:100px;" class="mb-3">
+  <div class="Professional_hockeys_lub d-flex align-items-*-center">
+    <h2>Our New Products</h2>
+    <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+      dolor. Purus urna in sit nullam proin.</p>
+  </div>
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto;" class="mb-3 mt-3">
+
+
+  <!----------------------------------------- Cards ----------------------------------------->
+  <div class="cards">
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/5.png" class="card-img-top" alt="5" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title"><b>World Cup Flags Football</b></h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary  gap-2">
+          <h5 class="text-danger"><b>Price-$22.00</b></h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/6.png" class="card-img-top" alt="6" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title">World Cup Flags Football</h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary">
+          <h5 class="text-danger">Price-$22.00</h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/7.png" class="card-img-top" alt="7" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title">Cap For Hockeys</h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary">
+          <h5 class="text-danger">Price-$22.00</h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/8.png" class="card-img-top" alt="8" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title">World Cup Flags Football</h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary">
+          <h5 class="text-danger">Price-$22.00</h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/9.png" class="card-img-top" alt="9" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title">World Cup Flags Football</h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary">
+          <h5 class="text-danger">Price-$22.00</h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+    <div class="card3 d-flex gap-2 border-dark p-2" style="width:auto;">
+      <img src="/Images/10.png" class="card-img-top" alt="10" style="width: 200px; height: 200px;">
+      <div class="card-body-cards d-flex">
+        <div class="icons_parent d-flex gap-2">
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
+            <h4>5.0</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-eye"></i></i></div>
+            <h4>20</h4>
+          </div>
+
+          <div class="icons d-flex gap-2">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+            <h4>200</h4>
+          </div>
+        </div>
+
+        <h5 class="card-title">World Cup Flags Football</h5>
+        <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+        <div class="price_delevary">
+          <h5 class="text-danger">Price-$22.00</h5>
+          <div class="delevary d-flex gap-3">
+            <div class="del_icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Delevery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card End one by one -->
+
+  </div>
+
+  <!--=========================== Cards part End =========================== -->
+
+
+  <!----------------------------- Clients Question--------------------------- -->
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto; margin-top:100px;" class="mb-3">
+  <div class="Professional_hockeys_lub d-flex align-items-*-center">
+    <h2 class="mb-3">Clients Question</h2>
+    <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>
+      dolor. Purus urna in sit nullam proin.</p>
+  </div>
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto;" class="mb-5 mt-3">
+
+
+
+  <!-- Our Equipment -->
+  <div class="our_equipment d-flex gap-4" style="width: 80%; margin: auto;">
+    <div class="our_equipment_img">
+      <img src="/Images/11.png" alt="" srcset="" style="height: 500px; width: 450px;">
+    </div>
+    <div class="our_equipment_accordin">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              Our Equipment
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                sagittis turpis in magna.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Hockey Training
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas soluta veritatis dolorum natus
+                quibusdam dignissimos, exercitationem sequi quod porro illo!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Private Lessons
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, laudantium cum atque distinctio
+                inventore enim ad suscipit explicabo nemo temporibus ipsa, impedit amet voluptas sunt!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Ski Touing
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, laudantium cum atque distinctio
+                inventore enim ad suscipit explicabo nemo temporibus ipsa, impedit amet voluptas sunt!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Booking
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, laudantium cum atque distinctio
+                inventore enim ad suscipit explicabo nemo temporibus ipsa, impedit amet voluptas sunt!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Pricings
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, laudantium cum atque distinctio
+                inventore enim ad suscipit explicabo nemo temporibus ipsa, impedit amet voluptas sunt!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!----------------------------- Get In Touch--------------------------- -->
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto; margin-top:100px;" class="mb-4">
+  <div class="Professional_hockeys_lub d-flex align-items-*-center">
+    <h2 class="mb-3">Get In Touch</h2>
+    <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>
+      dolor. Purus urna in sit nullam proin.</p>
+  </div>
+  <hr style="width: 80%;  border: 1px dashed black; margin: auto;" class="mb-5 mt-3">
+
+
+  <!---------------------------------- Contacts cards And Form --------------------------------->
+  <div class="contact_cards_and_form d-flex gap-5 mb-5" style="margin: auto; width: 80%;">
+
+    <div class="contact_cards border p-3">
+
+      <div class="contact_card d-flex mb-3">
+        <div class="card p-4" style="width: 100%;">
+          <img src="/Images/Group 1171275317.png" class="card-img-top" alt="Phone" style="height: 100px; width: 100px;">
+          <div class="card-body d-flex">
+            <h5 class="card-title">Phone Number</h5>
+            <h5><b>(+62) 123-321-543</b></h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact_card d-flex mb-3">
+        <div class="card p-4" style="width: 100%;">
+          <img src="/Images/Group 1171275318.png" class="card-img-top" alt="Phone" style="height: 100px; width: 100px;">
+          <div class="card-body d-flex">
+            <h5 class="card-title">Email:</h5>
+            <h5><b>hockeys@support.com</b></h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact_card d-flex mb-3">
+        <div class="card p-4" style="width: 100%;">
+          <img src="/Images/Group 1171275321.png" class="card-img-top" alt="Phone" style="height: 100px; width: 100px;">
+          <div class="card-body d-flex">
+            <h5 class="card-title">Location</h5>
+            <h5><b>152/1 Mohakhali Wireless Gate</b></h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="contact_form">
+      <div class="contact_form_up">
+        <div class="your_name">
+          <h5>Your Name</h5>
+          <input type="text" placeholder="Enter your full name">
+        </div>
+        <div class="your_email">
+          <h5>Your Name</h5>
+          <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="your_subject">
+          <h5>Subject</h5>
+          <input type="text" placeholder="Enter your subject">
+        </div>
+        <div class="phone_number">
+          <h5>Phone Number</h5>
+          <input type="number" placeholder="Enter your phone number">
+        </div>
+      </div>
+      <div class="contact_form_down">
+        <h5>Message</h5>
+        <input type="text" placeholder="Write your message">
+        <button type="button" class="btn btn-danger w-100 mt-5"><b>Send message</b></button>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------------- Social Media ----------------------------- -->
+  <div class="social_media mb-5 rounded-2">
+    <h3 class="mb-3"><b>Social Media</b></h3>
+    <div class="social_media_icons">
+      <div class="icon"><i class="fa-brands fa-twitter fa-beat fa-xl"></i></div>
+      <div class="icon"><i class="fa-brands fa-facebook-f fa-xl"></i></div>
+      <div class="icon"><i class="fa-brands fa-instagram fa-xl"></i></div>
+      <div class="icon"><i class="fa-brands fa-github fa-xl"></i></div>
+    </div>
+  </div>
+
+
+  <!-------------------- Footer -------------------->
+
+  <footer class="d-flex gap-4 bg-dark text-white p-3"
+    style="justify-content: center; margin: auto; font-family: Arial, Helvetica, sans-serif;">
+    <div class="footer_left">
+      <h2>Get In Touch</h2>
+      <p>Dit amet consectetur. Condimentum <br>
+        adipiscing aliquam turpis placerat dolor. Purus <br>
+        urna in sit nullam proin.
+      </p>
+      <div class="footer_email d-flex gap-3">
+        <div class="email_icon"><i class="fa-regular fa-envelope fa-lg"></i></div>
+        <h4>hockeys@support.com</h4>
+      </div>
+      <div class="footer_phone d-flex gap-3">
+        <div class="phone_icon"><i class="fa-solid fa-phone fa-lg"></i></div>
+        <h4>(+62) 123-321-543</h4>
+      </div>
+    </div>
+    <div class="footer_right d-flex gap-5">
+      <div class="footer_company">
+        <h3 class="mb-5">Company</h3>
+        <ul>
+          <li>About Us</li>
+          <li>Leadership</li>
+          <li>Careers</li>
+          <li>News & Article</li>
+          <li>Legal Notice</li>
+        </ul>
+      </div>
+      <div class="footer_support">
+        <h3 class="mb-5">Supports</h3>
+        <ul>
+          <li>Help Center</li>
+          <li>FAQ</li>
+          <li>Ticket Support</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer_services">
+        <h3 class="mb-5">Services</h3>
+        <ul>
+          <li>Academy</li>
+          <li>Group Lesson</li>
+          <li>Private Lession</li>
+          <li>Hockeys for kids</li>
+          <li>Hockeys for Adult</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
+</html>

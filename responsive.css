@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    .nav_btn{
+       width: 250px;
+    }
+    #carouselExampleControls{
+        position:;
+    }
+    .card-1{
+        display: none;
+    }
+    .carousel_text{
+        display: block;
+    }
+}
